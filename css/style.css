@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300i,400,400i,500i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
 body{
 font-family: 'Montserrat', sans-serif;
 	background-color: #fff;
@@ -7,7 +7,6 @@ font-family: 'Montserrat', sans-serif;
 header{
 	background-color: #fff;
 	font-family: 'Montserrat', sans-serif;
-	
 }
 
 
@@ -15,16 +14,11 @@ header{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	
 	height: 600px;
 }
 
 #hero .h4{
 	text-align: left;
-}
-
-#footer img{
-	width: 80px;
 }
 
 #footer{
@@ -67,8 +61,8 @@ header{
 	
 	
 }
-footer img{
-	width: 30px;
+#footer img{
+	width: 80px;
 	
 }
 
@@ -145,41 +139,49 @@ footer img{
 	z-index: 4;
 }
 
-.app-carousel {
-    padding: 0 6%;
-}
 
-.app-carousel .owl-dots {
-    text-align: center;
-}
-.app-carousel .owl-dot {
-    height: 11px;
-    width: 11px;
-    border: 2px solid #a49fba !important;
-    border-radius: 50%;
-    margin: 35px 6px;
-}
-.app-carousel .owl-dot.active {
-    background-color: white;
-    border: 0 !important;
-}
 
-#sec-lugares h1{
-	padding-top: 30px;
-	padding-bottom: 10px;
+#titulinis {
+font-family: 'Montserrat', sans-serif;
 	color: #005D7C;
+	font-size: 20px;
+	padding: 10px;
+	text-align: right;
+}
+
+#slides{
+padding: 5px;
+ width: 800px; 
+height: 500px;
+float: right;
+}
+
+
+#titulinix{
+font-family: 'Montserrat', sans-serif;
+color: #000;
+font-size: 15px;
+text-align: justify;
+
+}
+
+#titulinix h3{
+color: #005D7C;
+text-align: center;
+padding-bottom: 30px;
+	padding-top: 20px;
 	
 }
 
-#app-carousel{
-	padding-top: 20px;
-	padding-bottom: 30px;
+#navbar{
+padding-top: 60px ;
+padding-bottom: 60px;
 }
 
 /*Tablet*/
 @media (min-width:480px) and (max-width: 1024px) {
 	
-	#sec-lugares img{
+	#aboutus img{
 		width: 200px;
 	
 	}
@@ -191,27 +193,36 @@ footer img{
 /*Celular*/
 @media (max-width:480px) {
 	
-	.info-scroll h3{
-		font-size: 40px;
+	.carousel-caption h1{
+		font-size: 24px;
 	
 	}
 	
-	.info-scroll p{
-		font-size: 14px;
+	.carousel-caption p{
+		display: none;
 	
 	}
-	
-	.info-scroll h4{
-		font-size: 12px;
-	
+	.carousel-caption .btn-rectangulo{
+		padding: 4px 10px;
 	}
 	
-	#footer {
+	.carousel-caption {
+		top: 20%;
+	}
+	
+	.btn-center{
 		text-align: center;
-	
+		margin: auto;
+		display: block;
+		width: 30%;
 	}
 	
-	#footer .text-right {
+	.titulo {
 		text-align: center;
 	}
+	
+	.titulo::after {
+		margin: 15px auto;
+	}
+	
 }
